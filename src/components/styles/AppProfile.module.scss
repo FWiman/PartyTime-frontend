@@ -1,0 +1,52 @@
+
+.wrapper {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 1rem;
+  color: white;
+  margin: 0 auto;
+}
+
+.headerAvatar {
+  flex-grow: 0;
+}
+
+.profile-background {
+  width: 2rem;
+}
+
+.headerContent {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.flname {
+  margin-top: -0.5rem;
+  font-size: 3rem;
+}
+
+.username {
+  font-size: 1.5rem;
+  margin: 1rem;
+  margin-top: -2rem;
+}
+
+h3 {
+  margin-top: -100px;
+  padding: 0px;
+  color: white;
+}

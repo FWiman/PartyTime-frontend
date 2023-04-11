@@ -1,0 +1,93 @@
+.autocompletewrapper {
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+}
+
+.autocompleteinnerwrapper {
+  width: 100%;
+}
+
+.autocompleteinput {
+  width: 60vw;
+  height: 30px;
+  background-color: white;
+  border-radius: 5px;
+  border: rgb(213, 213, 213) solid 1px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'SeoulHangang';
+  transition: ease-in-out 0.25s;
+  margin-top: 1.5rem;
+
+}
+
+.autocompleteinputsmall {
+  height: 30px;
+  border-radius: 5px;
+  border: rgb(213, 213, 213) solid 1px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'SeoulHangang';
+  transition: ease-in-out 0.25s;
+  width: 100%;
+
+}
+
+.autocompleteinput:focus {
+  width: 80vw;
+
+  outline: 0;
+  height: 45px;
+  transform: translateY(5px);
+  transition: ease-in-out 0.3s;
+  font-size: 20px;
+  width: 70%;
+}
+
+.autocompletepredictions {
+  width: 70vw;
+  backdrop-filter: blur;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+  margin: 0 auto;
+  color: rgb(18, 18, 18);
+}
+
+.autocompletepredictionssmall {
+  position: absolute;
+  width: auto;
+  backdrop-filter: blur;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.autocompletesingle {
+  width: auto;
+  border: solid 1px #cacaca;
+  background-color: rgba(255,255,255,0.9);
+  margin: 10px;
+  padding: 10px;
+  height: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in-out 0.1s;
+}
+
+.autocompletesingle:hover {
+  background-color: orange;
+  transition: ease-in-out 0.1s;
+  color: white;
+  scale: 1.05;
+  cursor: pointer;
+
+}

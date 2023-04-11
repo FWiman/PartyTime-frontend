@@ -1,0 +1,126 @@
+.infocontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow-y: scroll;
+  color: white;
+}
+
+.innerItem {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 3.5rem;
+  margin: 1rem;
+  margin-bottom: 0rem;
+}
+
+.desc {
+  font-size: 1.2rem;
+  min-width: 80%;
+  background-color: #ffffff1f;
+  padding: 2rem;
+  min-height: 10rem;
+  border-radius: 10px;
+  margin: 1rem;
+
+}
+
+.upperInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  font-size: 1.3rem;
+}
+
+.placeInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin-top: 1rem;
+    background-color: #ffffff1f;
+    border-radius: 10px;
+
+}
+
+.infosec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeInfo p, .placeInfo div {
+    margin: 1rem;
+}
+
+
+.imageContainer {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  object-position: center;
+}
+
+
+.commentsContainer {
+  position: absolute;
+  background: linear-gradient(0deg, #ff9900 10%, #1976d2 100%);
+  margin: 0 auto;
+  margin-left: 2rem;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.actions button, .commentsContainer button {
+    font-size: 1rem;
+    margin: 0 1rem;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    border-color: transparent;
+    color: #fff;
+    background-color: #3656A8;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.commentsContainer button {
+    margin: 1rem 0;
+}
+
+.commentsContainer textarea {
+    width: 500px;
+    height: 75px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.actions button:active {
+    transform: scale(0.70);
+}
+
+
+

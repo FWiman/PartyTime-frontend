@@ -1,0 +1,136 @@
+.appeventswrapper {
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.search {
+  margin: 3vh;
+  width: 80%;
+  background-size: cover;
+  background-position: center;
+}
+
+.citieswrapper {
+  width: auto;
+  padding: 1vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1vw;
+}
+
+.citywrapper {
+  width: 20vw;
+  height: 16vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.114);
+  transition: ease-in-out 0.1s;
+  z-index: 3000;
+}
+
+.citywrapper:hover {
+  transition: ease-in-out 0.1s;
+  cursor: pointer;
+}
+
+.cityimage {
+  height: 10vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.citynamewrapper {
+  margin-top: 1vh;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.cityname {
+  color: white;
+  font-size: 1.2vw;
+  margin-left: 1vw;
+}
+
+
+.card {
+    padding: 1rem 3rem;
+}
+
+.card .contentContainer {
+    background-color: #3656A8;
+    color: #fff;
+    list-style: none;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+.contentDirection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imageContainer {
+    box-sizing: border-box;
+    width: 20rem;
+}
+
+.imageContainer img {
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.textContainer {
+    font-size: 1em;
+    text-align: start;
+    margin-left: 2rem;
+}
+
+.card .contentContainer .buttonListItem {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    transform: translate(50%);
+}
+
+.card .contentContainer:hover .buttonListItem button {
+    opacity: 1;
+    display: flex;
+}
+
+.buttonListItem button {
+    margin: 10px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color:  #3656A8;
+    width: 10rem;
+    display: none;
+    border-radius: 10px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.buttonListItem button:hover  {
+    background-position: right center;
+    text-decoration: none;
+}
+
+.buttonListItem button:active {
+    transform: scale(0.90);
+}

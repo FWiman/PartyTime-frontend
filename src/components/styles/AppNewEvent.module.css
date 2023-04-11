@@ -1,0 +1,160 @@
+
+.addactivityouterwrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.topbar {
+  height: 150px;
+}
+
+.lower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addbutton {
+  background-color: #1976d2;
+  color: white;
+  width: 15rem;
+  height: 4rem;
+  border-radius: 5px;
+  border: none;
+  font-family: 'SeoulHangang', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  transition: ease-in-out 0.1s;
+  margin: 1rem;
+}
+
+.addbutton:hover {
+  scale: 1.05;
+  transition: ease-in-out 0.1s;
+  cursor: pointer;
+}
+
+.addactivityinnerwrapper {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.addactivityleft {
+  width: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.addactivityleftinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chosenimage {
+  width: 100%;
+  height: 60%;
+  border-radius: 10px;
+  border: rgb(211, 211, 211) solid 1px;
+  margin-bottom: 10px;
+}
+
+.addactivityright {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  padding-right: 1.7rem;
+
+}
+
+.form {
+  display: flex;
+  width: 100%;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  color: white;
+
+}
+
+.control {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.control input,
+.control textarea {
+    display: block;
+    font: inherit;
+    border-radius: 4px;
+    border: 1px solid #ffffff30;
+    height: 25px;
+    padding: 0.25rem;
+    transition: ease-in-out 0.1s;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.171);
+    color: white;
+    width: 100%;
+
+}
+
+.control input:focus {
+  scale: 1.02;
+  transition: ease-in-out 0.1s;
+}
+
+.control textarea {
+  resize: none;
+  height: 8rem;
+}
+
+.actions {
+    text-align: right;
+}
+
+.label {
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+}
+
+.actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #77002e;
+    color: white;
+    border: 1px solid #77002e;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.actions button:hover,
+.actions button:active {
+    background-color: #a50e48;
+    border-color: #a50e48;
+}
+
+.autoinput {
+  width: 100%;
+  color: black;
+}

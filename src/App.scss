@@ -1,0 +1,211 @@
+@font-face {
+  font-family: SeoulHangang;
+  src: url(../fonts/SeoulHangangCBL.ttf);
+}
+
+body {
+  background-color: #ff9900;
+}
+
+.wrapper {
+  height: 100vh;
+  background: linear-gradient(0deg, #ff9900 10%, #1976d2 100%);
+  color: white;
+}
+
+.infoWindow {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  z-index: 200;
+  padding: 1rem;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(237, 174, 73, 1);
+  font-family: 'SeoulHangang', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gm-ui-hover-effect {
+  display: none !important;
+  overflow: hidden;
+  transition: 0.1s;
+}
+
+.gm-style-iw .gm-style-iw-c .storemapper-iw-container {
+  background-color: rgba(237, 174, 73, 1);
+}
+
+.infoWindow-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoWindow-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoWindow-left img {
+  width: 8vw;
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
+body {
+  margin: 0;
+  font-family: 'SeoulHangang', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.MuiTextField-root {
+  background: white;
+  border-radius: 10px;
+  text-underline-position: auto;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.header {
+  background-color: #ffffff00;
+  background: #d60000;
+}
+
+.apaapa {
+  background-color: aqua;
+}
+.menubutton * {
+  color: white;
+}
+
+.menubuttontext * {
+  color: white;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.page {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.profile-background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem;
+  //background-image: url('../public/assets/Images/tokyo.png');
+  margin: 1rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+
+
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.card-review {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.card-review-single {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  margin: 20px;
+}
+
+.card-review-single img {
+  border-radius: 5px;
+}
+
+.card-review-single-right {
+  margin-left: 10px;
+}
+
+.card-review-comment {
+  margin-left: 10px;
+  margin-top: -10px;
+  font-size: small;
+}
+
+.card-review-comment-title {
+  font-weight: bold;
+}
+
+.card-homepage {
+  flex-direction: row;
+  flex-grow: 1;
+  min-width: 200px;
+  width: calc(50% - 2em);
+  margin: 1em;
+}
+
+.card-event {
+  flex-direction: row;
+  flex-grow: 1;
+  min-width: 200px;
+  width: calc(33.3% - 2em);
+  margin: 1em;
+  background-color: #1976d2;
+}
+
+#map {
+  background-color: blue;
+  width: 500;
+  height: 500;
+}

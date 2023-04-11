@@ -1,0 +1,51 @@
+.avatar {
+  border-radius: 1000px;
+  background-color: red;
+  height: 80px;
+  width: 80px;
+}
+
+.right {
+  flex-grow: 1;
+}
+
+.drawer {
+  flex-grow: 1;
+  max-width: 100%;
+  height: 100%;
+  z-index: 1000000;
+  width: 50vw;
+  background: linear-gradient(0deg, #ff9900 10%, #1976d2 100%);
+  display: flex;
+  color: rgba(255, 255, 255, 0.525);
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 2vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+
+.flyoutimage {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 3.5rem;
+  overflow: hidden;
+  background-position: center;
+  margin: 1rem;
+  background-size: contain;
+}
+
+.flyoutinfo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flyoutusername {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 0rem;
+}

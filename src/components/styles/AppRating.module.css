@@ -1,0 +1,5 @@
+.ratingUl {
+    flex-direction: column;
+    list-style: none;
+}
+
